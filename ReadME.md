@@ -31,7 +31,7 @@ This project is a backend implementation for a Contact Management System, built 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/about40kills/contact-management-system.git
+   git clone https://github.com/about40kills/Contact-management-system.git
    cd contacts-backend
 
 2. Install dependencies
