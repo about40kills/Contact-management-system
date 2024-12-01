@@ -153,12 +153,6 @@ The following environment variables need to be set in your .env file:
 
 
 ## Error Handling
-The API uses a centralized error handling middleware to catch and respond to errors. Errors are returned in the following format:
-    ```json
-    {
-  "message": "Error message",
-  "stack": "Error stack trace" // Only in development mode
-    }
-
+The API uses a centralized error handling middleware to catch and respond to errors.
 
 
