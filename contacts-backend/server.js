@@ -16,6 +16,11 @@ const port = process.env.PORT || 5000;
 
 //add middleware
 app.use(express.json()); //a body passer middleware
+
+// Define a route for the root URL
+app.get('/', (req, res) => {
+  res.send('Welcome to the Contact Management System API');
+});
 app.use("/api/contacts", require("./routes/contactRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHandler);
